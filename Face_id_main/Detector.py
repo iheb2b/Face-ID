@@ -25,7 +25,7 @@ def main_app(name):
                 pred = 0
                 if confidence > 50:
                     #if u want to print confidence level
-                            confidence = 130 - int(confidence)
+                            confidence = 100 - int(confidence)
                             pred += +1
                             text = text = f'{name.upper()} {confidence}%'
                             font = cv2.FONT_HERSHEY_PLAIN
